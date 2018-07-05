@@ -1,0 +1,88 @@
+/*********************
+  Media Query Classes
+**********************/
+
+@media only screen and (max-width: 375px) {
+  .custom-collapse .collapsible-header {
+    margin-left: 23%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-logo{
+    height: 45px;
+    width: auto;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+
+  .btn-submit {
+    padding-left: 30%;
+  }
+
+  #loader {
+    background: white;
+    height: 100%;
+    background-size: cover;
+    position: fixed;
+    padding-top: 80%;
+    padding-left: 48%;
+    padding-right: 50%;
+    margin-left: -2.5%;
+    z-index: 99999;
+    opacity: 1;
+  }
+
+  .flex-column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .custom-collapse .collapsible-header {
+    /*margin-left: 26%;*/
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  #loader {
+    background: white;
+    height: 100%;
+    background-size: cover;
+    position: fixed;
+    padding-top: 65%;
+    padding-left: 48%;
+    padding-right: 50%;
+    margin-left: -2.5%;
+    z-index: 99999;
+    opacity: 1;
+  }
+
+  .flex-column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+
+  .custom-collapse .collapsible-header {
+    margin-left: 38%;
+  }
+}
+
+/******************************************************
+
+Query helpers
+
+.hide Hidden for all Devices
+.hide-on-small-only Hidden for Mobile Only
+.hide-on-med-only Hidden for Tablet Only
+.hide-on-med-and-down Hidden for Tablet and Below
+.hide-on-med-and-up Hidden for Tablet and Above
+.hide-on-large-only Hidden for Desktop Only
+.show-on-small  Show for Mobile Only
+.show-on-medium Show for Tablet Only
+.show-on-large  Show for Desktop Only
+.show-on-medium-and-up  Show for Tablet and Above
+.show-on-medium-and-down  Show for Tablet and Below
+
+******************************************************/
